@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- include head.html -->
+  <title>HTML Boilerplate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+  <!-- favicon -->
+  <link href="images/favicon.ico" type="image/x-icon" rel="icon">
+  <!-- meta social -->
+  <meta name="twitter:card" content="" />
+  <meta name="twitter:site" content="" />
+  <meta name="twitter:creator" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="">
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="">
+  <meta property="og:url" content="" />
+  <!-- Google Font -->
+  <!-- include styles.html -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/vendor.min.css">
+  <link rel="stylesheet" href="style/style.min.css">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- include header.html -->
+    <header class="header" id="header">
+      <div class="header__left">
+        <a href="#" class="logo">
+          <span class="fab fa-react logo__icon"></span>
+          Ant
+        </a>
+      </div>
+      <div class="header__right">
+        <div class="toggle" id="toggle">
+          <button class="toggle__button" onclick="ToggleMenu()">
+            <span class="fas fa-caret-square-down toggle__icon"></span>
+          </button>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link "><span class="fas fa-bell nav__icon"></span></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrapper__center" id="center">
+      <!-- include sidebar.html -->
+      <div class="sidebar" id="sidebar">
+        <nav class="sidebar__menu">
+          <ul id="metismenu">
+            <li class="item mm-active">
+              <a href="#" class="item__link">
+                <i class="fas fa-users-cog item__icon"></i>
+                <span class="item__content">Dashboard</span>
+              </a>
+            </li>
+            <li class="item item__dropdown">
+              <a href="#" class="item__link">
+                <i class="fas fa-store item__icon"></i>
+                <span class="item__content">UI Overview</span>
+              </a>
+              <ul class="hash-menu">
+                <li class="item">
+                  <a href="/card.html" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">Cards</span>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="#" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">Cards</span>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/card.html" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">Cards</span>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="#" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">Cards</span>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="/card.html" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">Cards</span>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="#" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">Cards</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="item item__dropdown">
+              <a href="#" class="item__link">
+                <i class="fas fa-id-card-alt item__icon"></i>
+                <span class="item__content">Cards</span>
+              </a>
+              <ul class="hash-menu">
+                <li class="item">
+                  <a href="/card.html" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">Cards</span>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="#" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">Cards</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="item item__dropdown">
+              <a href="#" class="item__link">
+                <i class="fas fa-car-battery item__icon"></i>
+                <span class="item__content">Layouts</span>
+              </a>
+              <ul class="hash-menu">
+                <li class="item">
+                  <a href="/card.html" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">Layouts</span>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="#" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">Layouts</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="item item__dropdown">
+              <a href="#" class="item__link">
+                <i class="fas fa-draw-polygon item__icon"></i>
+                <span class="item__content">UI Kit</span>
+              </a>
+              <ul class="hash-menu">
+                <li class="item">
+                  <a href="/card.html" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">UI Kit</span>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="#" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">UI Kit</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="item item__dropdown">
+              <a href="#" class="item__link">
+                <i class="fas fa-external-link-alt item__icon"></i>
+                <span class="item__content">Form</span>
+              </a>
+              <ul class="hash-menu">
+                <li class="item">
+                  <a href="/card.html" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">Form</span>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="#" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">Form</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="item item__dropdown">
+              <a href="#" class="item__link">
+                <i class="fas fa-volume-mute item__icon"></i>
+                <span class="item__content">Feedback</span>
+              </a>
+              <ul class="hash-menu">
+                <li class="item">
+                  <a href="/card.html" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">Feedback</span>
+                  </a>
+                </li>
+                <li class="item">
+                  <a href="#" class="item__link">
+                    <i class="fas fa-id-card-alt item__icon"></i>
+                    <span class="item__content">Feedback</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="item">
+              <a href="#" class="item__link">
+                <i class="fas fa-table item__icon"></i>
+                <span class="item__content">Table</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="item__link">
+                <i class="fas fa-chart-bar item__icon"></i>
+                <span class="item__content">Charts</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="item__link">
+                <i class="fas fa-calendar-day item__icon"></i>
+                <span class="item__content">Calender</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="item__link">
+                <i class="fas fa-sticky-note item__icon"></i>
+                <span class="item__content">Notes</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Main -->
+      <div class="main">
+        <div class="main__header">
+          <div class="overlay"></div>
+          <div class="content text-center">
+            <h2 class="content__title  wow fadeInDown">
+              About Us
+            </h2>
+            <p class="content__norm  wow fadeInDown">
+              Everything you need to know about our company
+            </p>
+          </div>
+        </div>
+        <div class="main__block">
+          <!-- include experience.html -->
+          <div class="experience">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="experience__item  wow fadeInDown">
+                    <div class="content">
+                      <h3 class="content__number">
+                        10
+                      </h3>
+                      <h2 class="content__title">
+                        Years Experience
+                      </h2>
+                      <p class="content__norm">
+                        Necessitatibus eaque, deleniti error in quam fuga et nisi facere dolore excepturi accusamus
+                        dicta
+                        reprehenderit dolor. Quo necessitatibus possimus ipsam, nesciunt aspernatur ex libero
+                        asperiores,
+                        debitis minus nostrum odio. Sunt dolore, dolorem id, iusto quia est unde a doloribus doloremque
+                        quisquam repellat nobis enim ipsam eligendi perspiciatis, provident eos aliquid.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="experience__item wow fadeInDown">
+                    <div class="content">
+                      <h3 class="content__number">
+                        5K+
+                      </h3>
+                      <h2 class="content__title">
+                        Satisfied Clients
+                      </h2>
+                      <p class="content__norm">
+                        Tempore adipisci ea accusamus odit consequuntur! Quaerat quos nemo qui ipsam accusantium,
+                        nostrum error
+                        nesciunt quibusdam velit tempore odit deleniti animi laborum sequi saepe minima atque! Nobis
+                        repellendus
+                        quos voluptatum sapiente, eveniet aliquid ex eum explicabo soluta delectus officia, dolore
+                        aspernatur,
+                        dicta nam placeat nostrum aliquam magni? Iste, hic, mollitia.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="experience__item wow fadeInDown">
+                    <div class="content">
+                      <h3 class="content__number">
+                        12
+                      </h3>
+                      <h2 class="content__title">
+                        Kinds of Products
+                      </h2>
+                      <p class="content__norm">
+                        Nostrum, laudantium minima nam dolorum quasi, ut sunt, dolore ratione suscipit sequi vero
+                        ducimus earum
+                        praesentium odit aut amet voluptates, sint doloribus omnis. Dignissimos, similique neque
+                        praesentium
+                        mollitia, libero delectus in adipisci ex nihil laborum iure quaerat magnam obcaecati repellendus
+                        exercitationem explicabo! Eum, ut voluptatum sapiente dignissimos unde quae eos quis mollitia,
+                        voluptate,
+                        dolores excepturi?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- include culture.html -->
+          <div class="culture">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="culture__left wow fadeInLeft">
+                    <div class="content">
+                      <h2 class="content__title">
+                        OUR CULTURE
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <div class="culture__right wow fadeInRight">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="block__item">
+                          <div class="content">
+                            <h2 class="content__title content__title--green">
+                              Strong sense of purpose
+                            </h2>
+                            <p class="content__norm">
+                              We want to help everyone build their sites better and easier.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="block__item">
+                          <div class="content">
+                            <h2 class="content__title content__title--green">
+                              Strong sense of purpose
+                            </h2>
+                            <p class="content__norm">
+                              We want to help everyone build their sites better and easier.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="block__item">
+                          <div class="content">
+                            <h2 class="content__title content__title--blue">
+                              Strong sense of purpose
+                            </h2>
+                            <p class="content__norm">
+                              We want to help everyone build their sites better and easier.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="block__item">
+                          <div class="content">
+                            <h2 class="content__title content__title--yellow">
+                              Strong sense of purpose
+                            </h2>
+                            <p class="content__norm">
+                              We want to help everyone build their sites better and easier.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="block__item">
+                          <div class="content">
+                            <h2 class="content__title content__title--red">
+                              Strong sense of purpose
+                            </h2>
+                            <p class="content__norm">
+                              We want to help everyone build their sites better and easier.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4">
+                        <div class="block__item">
+                          <div class="content">
+                            <h2 class="content__title content__title--black">
+                              Strong sense of purpose
+                            </h2>
+                            <p class="content__norm">
+                              We want to help everyone build their sites better and easier.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <!-- include footer.html -->
+    <footer class="footer">
+      <div class="footer__left">
+        <div class="content">
+          <p class="content__norm">
+            &copy; 2019 ANT
+          </p>
+        </div>
+      </div>
+      <div class="footer__right">
+        <div class="content">
+          <p class="content__norm">
+            Built with Love &hearts;
+          </p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- include scripts.html -->
+  <script src="script/vendor.min.js"></script>
+  <script src="script/script.min.js"></script>
+
+</body>
+
+</html>
